@@ -242,7 +242,7 @@ namespace HardwareTokenSample
                 cbSalt = 0
             };
 
-            string[] lines = { "sha1: " + sha1.GetHashCode(), " \n blobHash: " + blobHash.GetHashCode(), "\n blob: " + blob.GetHashCode(), "\n MachineId:" + token.GetHashCode() };
+            string[] lines = { "sha1: " + BitConverter.ToInt64(sha1.Hash, 0), " \n blobHash: " + BitConverter.ToInt64(blobHash, 0), "\n blob: " + BitConverter.ToInt64(blob, 0), "\n MachineId:" + BitConverter.ToInt64(token, 0) };
             System.IO.File.WriteAllLines(@"C:\Users\YanBorowski\Desktop\Windows8.HardwareToken-master\W8\HardwareTokenSample\HardwareTokenValidationService\log.txt", lines);
 
             int result2 = UnsafeNativeMethods.NCryptVerifySignature(

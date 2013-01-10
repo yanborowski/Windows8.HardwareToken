@@ -40,6 +40,7 @@ namespace HardwareTokenSample
             var nonce = CryptographicBuffer.GenerateRandom(32);
             var token = HardwareIdentification.GetPackageSpecificToken(nonce);
             HardwareTokenSample.HTVS.ValidationServiceClient client = new HTVS.ValidationServiceClient();
+            
             var result = await client.ValidateTokenAsync(GetBytes(token.Id), GetBytes(nonce), GetBytes(token.Certificate), GetBytes(token.Signature));
             MessageDialog dg = new MessageDialog(result ? "Valid" : "Invalid");
             dg.Title = "Hardware token is ";

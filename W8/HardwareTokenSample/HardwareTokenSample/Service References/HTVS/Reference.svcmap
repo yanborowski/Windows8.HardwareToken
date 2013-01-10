@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0678c432-6557-43fd-9725-1c86f25531e4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="424f44e1-ac56-47ea-8c5e-654d6c2160bb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -24,10 +24,10 @@
     <MetadataSource Address="http://localhost:36227/ValidationService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ValidationService.wsdl" MetadataType="Wsdl" ID="e8222a04-6284-49c9-b20b-51eddd87cd54" SourceId="1" SourceUrl="http://localhost:36227/ValidationService.svc?wsdl" />
-    <MetadataFile FileName="ValidationService.disco" MetadataType="Disco" ID="f105176a-0634-4b52-86b1-d9c517191d3b" SourceId="1" SourceUrl="http://localhost:36227/ValidationService.svc?disco" />
-    <MetadataFile FileName="ValidationService.xsd" MetadataType="Schema" ID="f41a794e-ec1b-446d-aa55-c0daefd0a88a" SourceId="1" SourceUrl="http://localhost:36227/ValidationService.svc?xsd=xsd1" />
-    <MetadataFile FileName="ValidationService1.xsd" MetadataType="Schema" ID="8711d45f-e391-4f13-a43f-f3c36cc716ad" SourceId="1" SourceUrl="http://localhost:36227/ValidationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ValidationService.wsdl" MetadataType="Wsdl" ID="6252b34b-4836-4c8e-98b0-97df54a3fc58" SourceId="1" SourceUrl="http://localhost:36227/ValidationService.svc?wsdl" />
+    <MetadataFile FileName="ValidationService.disco" MetadataType="Disco" ID="79743710-1440-4067-9c5b-bf106ebb6868" SourceId="1" SourceUrl="http://localhost:36227/ValidationService.svc?disco" />
+    <MetadataFile FileName="ValidationService.xsd" MetadataType="Schema" ID="857aa3e2-13ea-47b4-bbb7-e409ea16583c" SourceId="1" SourceUrl="http://localhost:36227/ValidationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ValidationService1.xsd" MetadataType="Schema" ID="28188eb8-7f48-42e9-ad9f-0c2a8990c365" SourceId="1" SourceUrl="http://localhost:36227/ValidationService.svc?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
